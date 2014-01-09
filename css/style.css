@@ -199,7 +199,7 @@ a.active {
 	overflow: hidden;
 }
 
-#left-column {
+.left-column {
 	float: left;
 	width: 70%;
 	padding-left: 2%;
@@ -217,7 +217,7 @@ a.active {
 	width: 65%;
 }
 
-#right-column {
+.right-column {
 	float: right;
 	width: 20%;
 	padding-right: 2%;
@@ -249,7 +249,7 @@ p.blog-date {
 	font-family: 'Open-Italic';
 }
 
-#right-column-wrapper {
+.right-column-wrapper {
 	padding-left: 20px;
 }
 
@@ -298,15 +298,19 @@ p.footer-font {
 	margin: 0;
 }
 
-#img-resize {
+.img-resize {
 	float: left;
 	margin-bottom: 25px;
 	width: 100%;
 }
 
-	#img-resize img {
+	.img-resize img {
 		width: 85%;
 	}
+
+li.social {
+	display: inline-block;
+}
 
 @media screen and (max-width: 800px) {
 
@@ -355,7 +359,7 @@ p.footer-font {
 		text-align: center;
 	}
 
-	#left-column {
+	.left-column {
 		width: 96%;
 		float: left;
 		clear: left;
@@ -364,7 +368,7 @@ p.footer-font {
 		padding: 2%;
 	}
 
-	#right-column {
+	.right-column {
 		display: none;
 	}
 
@@ -376,7 +380,7 @@ p.footer-font {
 		padding: 2%;
 	}
 
-	#img-resize {
+	.img-resize {
 		width: 35%;
 		margin-right: auto;
 		margin-left: auto;
@@ -386,6 +390,10 @@ p.footer-font {
 }
 
 @media screen and (max-width: 450px) {
+
+	.light {
+		font-family: 'Ostrich-Med';
+	}
 
 	h1 {
 		font-size: 50px;
