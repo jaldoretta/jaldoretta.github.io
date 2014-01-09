@@ -184,6 +184,10 @@ a.active {
 	overflow: hidden;
 }
 
+#hide {
+	display: none;
+}
+
 .left-column {
 	float: left;
 	width: 70%;
@@ -342,12 +346,18 @@ p.footer-font {
 	.body-container {
 		padding-top: 35px;
 	}
+
+	#hide {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 660px) {
 
 	h1 {
 		font-size: 70px;
+		padding-top: 3%;
+		padding-bottom: 3%;
 	}
 
 	h2 {
@@ -356,6 +366,16 @@ p.footer-font {
 
 	.double-line {
 		font-size: 62px;
+	}
+
+	.main-header-text {
+		padding-top: 4%;
+		padding-bottom: 4%;
+	}
+
+	nav {
+		padding-top: 4%;
+		padding-bottom: 4%;
 	}
 
 	.body-container {
@@ -396,6 +416,19 @@ p.footer-font {
 		float: none;
 		margin-bottom: 0;
 	}
+
+	#hide {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	img.JA-img {
+	border-radius: 50%;
+	width: 150px;
+	padding-top: 8%;
+	padding-bottom: 8%;
+}
 }
 
 @media screen and (max-width: 450px) {
@@ -418,5 +451,9 @@ p.footer-font {
 
 	.body-title, .blog-title {
 		font-size: 30px;
+	}
+
+	#hide {
+		display: block;
 	}
 }
