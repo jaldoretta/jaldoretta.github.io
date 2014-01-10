@@ -254,8 +254,23 @@ p.blog-date {
 	line-height: 1.4em;
 }
 
-.social-buttons {
+a.addthis_default_style {
+	padding: 0 4px;
+}
+
+a.addthis_button_facebook_follow {
 	color: #014E56;
+}
+
+a.addthis_button_twitter_follow {
+	color: #014E56;
+}
+
+a.addthis_button_linkedin_follow {
+	color: #014E56;
+}
+
+.social-buttons {
 	border-bottom: none;
 }
 
