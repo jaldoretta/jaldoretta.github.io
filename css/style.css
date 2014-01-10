@@ -152,7 +152,7 @@ a {
 	
 	a:hover {
 		color: black;
-		border-bottom: 1px solid black;
+		border-bottom: none;
 	}
 
 a.active {
@@ -196,7 +196,7 @@ a.active {
 	border-right: 1px solid #C0C0C0;
 }
 
-.blog-title {
+/*.blog-title {
 	font-family: 'Ostrich-Med';
 	font-size: 35px;
 	text-align: left;
@@ -208,7 +208,7 @@ a.active {
 
 	.blog-title:hover {
 		color: black;
-	}
+	}*/
 
 .body-title {
 	font-family: 'Ostrich-Med';
@@ -216,7 +216,7 @@ a.active {
 	text-align: left;
 }
 
-.blog-teaser {
+/*.blog-teaser {
 	padding-bottom: 25px;
 	margin-bottom: 30px;
 	border-bottom: 1px solid #C0C0C0;
@@ -226,7 +226,7 @@ a.active {
 	.blog-teaser:last-child {
 		border-bottom: none;
 		padding-bottom: 0;
-	}
+	}*/
 
 p.blog-date {
 	color: #999;
@@ -234,7 +234,7 @@ p.blog-date {
 	margin-top: 10px;
 }
 
-.blog-body {
+.body-wrapper {
 	padding-top: 15px;
 }
 
@@ -255,6 +255,7 @@ p.blog-date {
 }
 
 .social-buttons {
+	color: #014E56;
 	border-bottom: none;
 }
 
