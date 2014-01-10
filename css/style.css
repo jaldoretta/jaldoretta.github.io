@@ -145,9 +145,9 @@ li.nav {
 }
 
 a {
-	color: #444;
+	color: #777;
 	text-decoration: none;
-	border-bottom: 1px solid #444;
+	border-bottom: 1px solid #777;
 }
 	
 	a:hover {
@@ -158,10 +158,6 @@ a {
 a.active {
 	color: black;
 	border-bottom: 1px solid black;
-}
-
-a.active {
-	color: black;
 }
 
 .img-resize {
@@ -189,6 +185,7 @@ a.active {
 	width: 70%;
 	padding-left: 2%;
 	padding-right: 5%;
+	padding-bottom: 10px;
 	border-right: 1px solid #C0C0C0;
 }
 
@@ -224,10 +221,6 @@ p.blog-date {
 	line-height: 1.4em;
 }
 
-a.addthis_default_style {
-	padding: 0 4px;
-}
-
 li.social {
 	display: inline-block;
 	padding-right: 5%;
@@ -240,10 +233,6 @@ li.social {
 .social-buttons {
 	border-bottom: none;
 }
-
-	.social-buttons:hover {
-		border-bottom: none;
-	}
 
 .body-left-column {
 	float: left;
@@ -277,19 +266,6 @@ p.right-column-paragraph {
 	text-align: center;
 }
 
-.recent-posts {
-	font-family: 'Ostrich-Med';
-	font-size: 30px;
-	color: #333;
-	padding-bottom: 15%;
-	padding-top: 15%;
-	text-align: left;
-}
-
-li.right-column-links {
-	margin-bottom: 10px;
-}
-
 .footer-container {
 	width: 96%;
 	margin-left: auto;
@@ -316,7 +292,7 @@ p.footer-font {
 		font-size: 80px;
 	}
 
-	h2, .recent-posts {
+	h2 {
 		font-size: 28px;
 	}
 
@@ -430,7 +406,7 @@ p.footer-font {
 		font-size: 22px;
 	}
 
-	.body-title, .blog-title {
+	.body-title {
 		font-size: 30px;
 	}
 
