@@ -191,7 +191,7 @@ a.active {
 
 .body-title {
 	font-family: 'Ostrich-Med';
-	font-size: 35px;
+	font-size: 46px;
 	text-align: left;
 }
 
@@ -203,6 +203,8 @@ p.blog-date {
 
 .body-wrapper {
 	padding-top: 15px;
+	padding-bottom: 15px;
+	overflow: hidden;
 }
 
 .body-italic {
@@ -236,13 +238,23 @@ li.social {
 
 .body-left-column {
 	float: left;
-	width: 33%;
+	width: 35%;
 	padding-right: 4%;
+}
+
+.cycle {
+	text-align: center;
+}
+
+.shadow {
+	-moz-box-shadow: 0 3px 10px #888;
+	-webkit-box-shadow: 0 3px 10px #888;
+	box-shadow: 0 3px 10px #888;
 }
 
 .body-right-column {
 	float: right;
-	width: 63%;
+	width: 61%;
 }
 
 .right-column {
@@ -341,7 +353,7 @@ p.footer-font {
 		margin-bottom: 0;
 	}
 
-	.body-title, p.blog-date {
+	.body-title {
 		text-align: center;
 	}
 
@@ -349,7 +361,7 @@ p.footer-font {
 		width: 96%;
 		float: left;
 		clear: left;
-		margin: 0 0 10px;
+		margin: 0 0 40px;
 		border: none;
 		padding: 2%;
 	}
@@ -366,11 +378,12 @@ p.footer-font {
 		padding: 2%;
 	}
 
-	.img-resize {
+	.img-resize, .cycle-resize {
 		margin-right: auto;
 		margin-left: auto;
 		float: none;
 		margin-bottom: 0;
+		width: 100%;
 	}
 
 	#hide {
