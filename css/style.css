@@ -170,10 +170,6 @@ a.active {
 	width: 100%;
 }
 
-	.img-resize img {
-		width: 85%;
-	}
-
 .body-container {
 	width: 100%;
 	max-width: 960px;
@@ -196,37 +192,11 @@ a.active {
 	border-right: 1px solid #C0C0C0;
 }
 
-/*.blog-title {
-	font-family: 'Ostrich-Med';
-	font-size: 35px;
-	text-align: left;
-	color: #444;
-	line-height: 1.4em;
-	text-decoration: none;
-	border-bottom: 1px solid #444;
-}
-
-	.blog-title:hover {
-		color: black;
-	}*/
-
 .body-title {
 	font-family: 'Ostrich-Med';
 	font-size: 35px;
 	text-align: left;
 }
-
-/*.blog-teaser {
-	padding-bottom: 25px;
-	margin-bottom: 30px;
-	border-bottom: 1px solid #C0C0C0;
-	overflow: hidden;
-}
-
-	.blog-teaser:last-child {
-		border-bottom: none;
-		padding-bottom: 0;
-	}*/
 
 p.blog-date {
 	color: #999;
@@ -258,17 +228,14 @@ a.addthis_default_style {
 	padding: 0 4px;
 }
 
-a.addthis_button_facebook_follow {
-	color: #014E56;
+li.social {
+	display: inline-block;
+	padding-right: 5%;
 }
 
-a.addthis_button_twitter_follow {
-	color: #014E56;
-}
-
-a.addthis_button_linkedin_follow {
-	color: #014E56;
-}
+	li.social:last-child {
+		padding-right: 0px;
+	}
 
 .social-buttons {
 	border-bottom: none;
@@ -296,7 +263,8 @@ a.addthis_button_linkedin_follow {
 }
 
 .right-column-wrapper {
-	padding-left: 20px;
+	padding-left: 8%;
+	text-align: center;
 }
 
 img.JA-img {
@@ -306,11 +274,7 @@ img.JA-img {
 p.right-column-paragraph {
 	font-size: 14px;
 	color: #444;
-}
-
-.social-container {
-	padding-top: 20px;
-	padding-bottom: 10px;
+	text-align: center;
 }
 
 .recent-posts {
@@ -369,7 +333,7 @@ p.footer-font {
 	}
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 775px) {
 
 	h1 {
 		font-size: 70px;
@@ -427,7 +391,6 @@ p.footer-font {
 	}
 
 	.img-resize {
-		width: 35%;
 		margin-right: auto;
 		margin-left: auto;
 		float: none;
@@ -438,13 +401,14 @@ p.footer-font {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
+		margin-bottom: 20px;
 	}
 
 	img.JA-img {
 	border-radius: 50%;
 	width: 150px;
-	padding-top: 8%;
-	padding-bottom: 8%;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 }
 
