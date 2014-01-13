@@ -1,0 +1,7 @@
+name: "Jennifer Aldoretta"
+description: "I write about startups, feminism, women's health, fertility awareness, and other topics."
+
+url: "http://localhost:4000"
+
+markdown: rdiscount
+permalink: pretty

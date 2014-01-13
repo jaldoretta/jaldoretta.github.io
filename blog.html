@@ -1,3 +1,7 @@
+---
+layout: none
+title: blog
+---
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
@@ -5,12 +9,12 @@
 	    <meta property="og:title" content="All Blog Posts"/>
 	    <meta name="description" content="I write about startups, feminism, women's health, fertility awareness, and other topics.">
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-	    <link rel='stylesheet' type='text/css' href='css/reset.css'/>
-	    <link rel='stylesheet' type='text/css' href='css/style.css'/>
-	    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+	    <link rel='stylesheet' type='text/css' href='/css/reset.css'/>
+	    <link rel='stylesheet' type='text/css' href='/css/style.css'/>
+	    <link rel="shortcut icon" href="/img/favicon.png" type="image/png">
 		<link rel="shortcut icon" type="image/png" href="http://www.jenniferaldoretta.com/favicon.png" />
 	    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'></script>
-	    <script type='text/javascript' src='js/script.js'></script>
+	    <script type='text/javascript' src='/js/script.js'></script>
 	</head>
 	<body>
 		<div class="header-container">
@@ -21,8 +25,8 @@
 			<nav>
 				<ul>
 					<li class="nav"><a class="nav-text-link" href="/" title="home">home</a></li>
-            		<li class="nav"><a class="nav-text-link active" id="blog-nav" href="blog" title="blog">blog</a></li>
-            		<li class="nav"><a class="nav-text-link" id="books-nav" href="books" title="books">books</a></li>
+            		<li class="nav"><a class="nav-text-link active" id="blog-nav" href="/blog" title="blog">blog</a></li>
+            		<li class="nav"><a class="nav-text-link" id="books-nav" href="/books.html" title="books">books</a></li>
           		</nav>
           	</div>
 		</div><!--.header-container-->
@@ -30,32 +34,34 @@
 			<div class="left-column">
 				<h1 class="body-title">All Blog Posts</h1>
 				<div class="body-wrapper">
-					<p class="blog-date"><a class="body-text-link" href="http://jenniferaldoretta.com/blog-post">This is a blog post title</a>, posted on January 1, 2014</p>
-					<p class="blog-date"><a class="body-text-link" href="http://jenniferaldoretta.com/blog-post">This is another blog post title</a>, posted on January 1, 2014</p>
+					{% for post in site.posts %}
+					<p class="blog-date"><a class="body-text-link" href="{{post.url}}">{{ post.title }}</a>, posted on {{ post.date | date: '%B %-d, %Y' }}</p>
+					{% endfor %}
+					<!-- <p class="blog-date"><a class="body-text-link" href="http://jenniferaldoretta.com/blog-post">This is another blog post title</a>, posted on January 1, 2014</p>
 					<p class="blog-date"><a class="body-text-link" href="http://jenniferaldoretta.com/blog-post">This is yet another blog post title</a>, posted on January 1, 2014</p>
 					<p class="blog-date"><a class="body-text-link" href="http://jenniferaldoretta.com/blog-post">And here's another blog post title</a>, posted on January 1, 2014</p>
 					<p class="blog-date"><a class="body-text-link" href="http://jenniferaldoretta.com/blog-post">More blog posts!</a>, posted on January 1, 2014</p>
 					<p class="blog-date"><a class="body-text-link" href="http://jenniferaldoretta.com/blog-post">This is still a blog post title</a>, posted on January 1, 2014</p>
 					<p class="blog-date"><a class="body-text-link" href="http://jenniferaldoretta.com/blog-post">What an interesting title</a>, posted on January 1, 2014</p>
-					<p class="blog-date"><a class="body-text-link" href="http://jenniferaldoretta.com/blog-post">Titles are so fun</a>, posted on January 1, 2014</p>
+					<p class="blog-date"><a class="body-text-link" href="http://jenniferaldoretta.com/blog-post">Titles are so fun</a>, posted on January 1, 2014</p> -->
 				</div><!--.body-wrapper-->
 			</div><!--#left-column-->
 			<div class="right-column">
 				<div class="right-column-wrapper">
 					<div class="img-resize">
-						<img class="JA-img" src="img/JA.jpg" atl="img-resize" />
+						<img class="JA-img" src="/img/JA.jpg" atl="img-resize" />
 					</div>
 					<p class="right-column-paragraph">Howdy. Thanks for stopping by!</p>
 					<div>
 						<ul>
 							<li class="social">
-								<a class="social-buttons" href="http://www.twitter.com/jaldoretta"><img src="img/twitter_follow.png" alt="Twitter"/></a>
+								<a class="social-buttons" href="http://www.twitter.com/jaldoretta"><img src="/img/twitter_follow.png" alt="Twitter"/></a>
 							</li>
 							<li class="social">
-								<a class="social-buttons" href="http://www.facebook.com/jennifer.aldoretta"><img src="img/facebook_follow.png" alt="Facebook"/></a>
+								<a class="social-buttons" href="http://www.facebook.com/jennifer.aldoretta"><img src="/img/facebook_follow.png" alt="Facebook"/></a>
 							</li>
 							<li class="social">
-								<a class="social-buttons" href="http://www.linked.com/in/jaldoretta/"><img src="img/linkedin_follow.png" alt="LinkedIn"/></a>
+								<a class="social-buttons" href="http://www.linked.com/in/jaldoretta/"><img src="/img/linkedin_follow.png" alt="LinkedIn"/></a>
 							</li>
 						</ul>
 					</div><!--.social-->

@@ -1,8 +1,8 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-	    <title>Books</title>
-	    <meta property="og:title" content="I've Written Some Things"/>
+	    <title>{{ page.title }}</title>
+	    <meta property="og:title" content="This is the Title of the Page"/>
 	    <meta name="description" content="I write about startups, feminism, women's health, fertility awareness, and other topics.">
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 	    <link rel='stylesheet' type='text/css' href='/css/reset.css'/>
@@ -22,25 +22,26 @@
 				<ul>
             		<li class="nav"><a class="nav-text-link" href="/" title="home">home</a></li>
             		<li class="nav"><a class="nav-text-link" id="blog-nav" href="/blog" title="blog">blog</a></li>
-            		<li class="nav"><a class="nav-text-link active" id="books-nav" href="/books.html" title="books">books</a></li>
-          		</ul>
-          	</nav>
+            		<li class="nav"><a class="nav-text-link" id="books-nav" href="/books.html" title="books">books</a></li>
+          		</nav>
+          	</div>
 		</div><!--.header-container-->
 		</div>
 		<div class="body-container">
 			<div class="left-column">
-				<h1 class="body-title">I've written some things</h1>
+				<h1 class="body-title">{{ page.title }}</h1>
+				<p class="blog-date">Posted on {{ page.date | date: '%B %-d, %Y' }}</p>
 				<div class="body-wrapper">
-					<div class="body-left-column">
-						<div id="cycle-resize" class="cycle">
-							<img class="shadow" src="/img/cycle.jpg" atl="cycle-resize" />
-						</div>
-					</div>
-					<div class="body-right-column">
-						<p><span class="body-italic">The Cycle</span> explores the complex relationship between society and menstruation, and suggests ways in which we can help overcome the burdens of menstrual-related stigmas faced by women. I seek to break down this stigma by educating readers on the many benefits of a natural menstrual cycle, including highly-effective contraception, conception assistance, maintenance of gynecological health, and timely diagnosis of many reproductive disorders.</p>
-						<p><span class="body-italic">The Cycle</span> will teach you the details of practicing the symptothermal method of fertility awareness for these purposes, and along the way will hopefully make the taboo topic of menstruation feel a little more human. I am so passionate about this subject that I have made the book <a class="body-text-link" href="http://www.readytogroove.com/menstruation-revelation">available for free here</a>.</p>
-					</div>
+					<p>{{ content }}</p>
+				</div><!--.blog-body-->
+				<!-- AddThis Button BEGIN -->
+				<div class="addthis_toolbox addthis_default_style ">
+				<a class="addthis_button_facebook_like social-buttons" fb:like:layout="button_count"></a>
+				<a class="addthis_button_tweet social-buttons"></a>
 				</div>
+				<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+				<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52ceee943bc45eff"></script>
+				<!-- AddThis Button END -->
 			</div>
 			<div class="right-column">
 				<div class="right-column-wrapper">
