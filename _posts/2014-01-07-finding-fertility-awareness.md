@@ -8,7 +8,7 @@ date:   2014-01-07
 
 I've been writing blog posts for a little while now, but I feel like we don't even know each other! I decided to take some time this week to share my personal birth control story with you—the good, the bad, and the bloody.
 
-**The Early Years**
+<h3>The Early Years</h3>
 
 My struggles began back when I was wide-eyed and bushy-tailed. I experienced menarche (my very first menstrual period) at age 11. I was never particularly excited about the idea of bleeding out of my vagina, and any small amount of anticipation I did have was instantly squelched by the site of that first stain. I awoke in the middle of the night with horrible pain in my stomach. At first, I thought that I just *really* needed to use the bathroom, but these weren't any potty-pains I had ever encountered. My mom sat with me in her bathroom, and when I wiped and saw the red, I panicked. My mom seemed relieved that we finally knew the purpose of my discomfort. I, on the other hand, was anything but relieved. I stayed home from school for the first two days of my period. It wasn't because I was embarrassed or couldn't *bear* to go to school in such a state (though this was certainly true). I spent those first two days doubled over in pain that was interspersed with bouts of vomiting and an overall feeling of death. I remember my dad's concern very vividly: “Is this normal?” My mom's matter-of-fact “no” still rings in my ears. And so began my journey into womanhood.
 
@@ -16,7 +16,7 @@ Back then, I didn't know there was a name for the complete and utter agony I exp
 
 Then at age 16, I was introduced to the birth control pill, and it changed my life.
 
-**My Relationship With the Pill**
+<h3>My Relationship With the Pill</h3>
 
 My parents were never particularly happy that I wanted to take the pill. As an ICU nurse, my mom always told me horror stories of young twenty-somethings ending up in her care after suffering strokes, heart attacks, or blood clots due to taking the pill. But I didn't care. I wouldn't be in pain anymore, and we're always told those problems are *super rare*. So why worry? That magic little pill would fix me!
 
@@ -30,7 +30,7 @@ A year later, my erratic moods returned with a vengeance. My mental state felt l
 
 At first I thought it must have been a panic attack; school was stressful and I was also working to support myself. But it got to the point that this was occurring on almost a daily basis; I even experienced a few “episodes” where I almost passed out while driving. Given my extensive family history of what seems like every disease and disorder known to man (I wish I was joking), I decided to make an appointment with my general practitioner. And that's when the real fun began.
 
-**Doctors Know Best**
+<h3>Doctors Know Best</h3>
 
 Being in a constant I-feel-like-I-may-drop-dead-at-any-second state is, needless to say, not the most comfortable thing. Here I was—a seemingly healthy, active 22-year-old—and I was experiencing symptoms typically reserved for “sick” people.
 
@@ -38,7 +38,7 @@ I spent the next year being poked and prodded by doctors trying to figure out wh
 
 After countless questions and detailed conversations about my lifestyle, diet, and exercise habits, not one of them ever suggested that my issues might be connected to my use of the birth control pill. And, at the time, I didn't think twice.
 
-**Taking Matters Into My Own Hands**
+<h3>Taking Matters Into My Own Hands</h3>
 
 After all this medical intervention, I was still no better off. I was quickly losing faith in my doctors, so I decided it was time to take matters into my own hands. I made a mental list of all the things in my life that could possibly be causing or contributing to my symptoms. Did I suddenly develop some sort of food allergy? Perhaps it was a lack of exercise? Too much stress? Being a trained engineer, it was only natural for me to conduct an experiment on myself. One at a time, I altered some part of my lifestyle and waited for the results.
 
@@ -46,7 +46,7 @@ First I changed my diet. I cut out dairy. When that made no difference, I cut ou
 
 I can't even tell you how much time I spent racking my brain trying to find anything that would lead me in the right direction. The symptoms just wouldn't let up. I was constantly dizzy. I was terrified of driving. I was terrified of being alone in my apartment. At this point I was desperate and willing to try just about anything. I was doubtful it would work, but I decided to try the only experiment left that I could think of: I would stop taking my birth control pill.
 
-**The Final Test**
+<h3>The Final Test</h3>
 
 I definitely wasn't crazy about the idea of stopping the pill. To be honest, I didn't even think it would help. After all, at this point I had been on hormones for close to 8 years…it couldn't *possibly* start causing problems so suddenly. And if it was possible that the pill was at the root of my problems, surely my doctors would have said something. But I knew I had to test all the variables; so I quit. Cold turkey.
 
@@ -56,7 +56,7 @@ My annual visit with her was still 2 months away, but I didn't want to wait. I e
 
 After a week of my first new pill, I started to feel dizzy again. After a few more weeks, my heart palpitations and chest tightness were back in full-force. *Is this really worth it?* I'll admit I struggled a lot when trying to decide what I should do. With one final push—and the full support—of one of my best friends, I decided it was time to break up with the pill. For good.
 
-**gyNO**
+<h3>gyNO</h3>
 
 I felt good about my decision to quit, but I was at a loss in terms of my birth control options. I wanted something non-hormonal; something *natural*. After a little research, I decided I'd like to try out a diaphragm, but I still wanted my doctor's guidance.
 
@@ -64,7 +64,7 @@ So at my annual visit, I asked her about natural options. Her initial response: 
 
 I was pretty disappointed that a *hormonal* IUD was the first thing she mentioned. When I asked to be fitted for a diaphragm, she chuckled and said, “Are you sure?” She tried to talk me out of the fitting, but eventually agreed. At the end of our visit, she sarcastically told me that she'd see me in a year “unless something else comes up,” which felt more like a “see you when you're pregnant!” I left her office feeling angry, demeaned, embarrassed, and, worst of all, alone.
 
-**On a Mission**
+<h3>On a Mission</h3>
 
 After the initial disappointment passed, there was something I just couldn't get off my mind. *It's 2012…how in the world is a DIAPHRAGM my best natural option?!* I knew there had to be something better, and my mission was to find out what that was.
 
@@ -74,7 +74,7 @@ That little bit of research quickly turned into a lot of research. Seriously…A
 
 I wondered why so few women knew about this awesome method. I've finally come to the conclusion that a big part of the problem is a lack of education. And I'm determined to change that.
 
-**Never Look Back**
+<h3>Never Look Back</h3>
 
 If you really think about it, birth control hasn't changed since 1960. There's nothing novel about today's contraception options; for the most part, they've all been around since the 1950s and ‘60s. But it's hard to compete with something like the pill that's so simple and effective. But you'd better believe I'm going to try.
 
