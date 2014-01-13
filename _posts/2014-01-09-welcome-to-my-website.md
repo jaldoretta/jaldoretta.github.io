@@ -2,6 +2,7 @@
 layout: blog-post
 title:  "Welcome to My Website!"
 date:   2014-01-09
+permalink: /blog/welcome-to-my-website
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
