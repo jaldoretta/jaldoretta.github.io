@@ -212,7 +212,7 @@ a.active {
 	text-align: left;
 }
 
-p.blog-date {
+p.blog-list, p.blog-date {
 	color: #999;
 	margin-bottom: 0;
 	margin-top: 10px;
@@ -371,6 +371,10 @@ p.footer-font {
 	}
 
 	.body-title {
+		text-align: center;
+	}
+
+	p.blog-date {
 		text-align: center;
 	}
 

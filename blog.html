@@ -44,7 +44,7 @@ title: blog
 				<h1 class="body-title">All Blog Posts</h1>
 				<div class="body-wrapper">
 					{% for post in site.posts %}
-					<p class="blog-date"><a class="body-text-link" href="{{post.url}}">{{ post.title }}</a>, posted on {{ post.date | date: '%B %-d, %Y' }}</p>
+					<p class="blog-list"><a class="body-text-link" href="{{post.url}}">{{ post.title }}</a>, posted on {{ post.date | date: '%B %-d, %Y' }}</p>
 					{% endfor %}
 				</div><!--.body-wrapper-->
 			</div><!--#left-column-->
