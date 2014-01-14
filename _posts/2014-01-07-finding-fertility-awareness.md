@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 title:  "Finding Fertility Awareness: My Birth Control Story"
-date:   2014-01-13
+date:   2014-01-07
 ---
 
 *This blog post is cross-posted from [Groove](http://readytogroove.com/blog/finding-fertility-awareness-my-birth-control-story/ "Finding Fertility Awareness: My Birth Control Story").*
