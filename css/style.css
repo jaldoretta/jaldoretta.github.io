@@ -259,6 +259,10 @@ li.social {
 	padding-right: 4%;
 }
 
+#cycle-resize {
+	max-width: 100%;
+}
+
 .cycle {
 	text-align: center;
 }
@@ -419,7 +423,7 @@ p.footer-font {
 	width: 150px;
 	padding-top: 20px;
 	padding-bottom: 20px;
-}
+	}
 }
 
 @media screen and (max-width: 450px) {
