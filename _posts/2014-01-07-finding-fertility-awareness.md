@@ -4,7 +4,8 @@ title:  "Finding Fertility Awareness: My Birth Control Story"
 date:   2014-01-13
 ---
 
-*This blog post was cross-posted from [Groove](http://readytogroove.com/blog/finding-fertility-awareness-my-birth-control-story/ "Finding Fertility Awareness: My Birth Control Story")*
+*This blog post is cross-posted from [Groove](http://readytogroove.com/blog/finding-fertility-awareness-my-birth-control-story/ "Finding Fertility Awareness: My Birth Control Story").*
+
 
 I've been writing blog posts for a little while now, but I feel like we don't even know each other! I decided to take some time this week to share my personal birth control story with you—the good, the bad, and the bloody.
 
