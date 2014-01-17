@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 title:  "In Response to Paul Graham's Essay About Female Founders"
-date:   2014-01-14
+date:   2014-01-17
 ---
 
 Though much of the recent Paul Graham [controversy](http://valleywag.gawker.com/paul-graham-says-women-havent-been-hacking-for-the-pa-1490581236) about female founders has died down, I still find myself thinking about his [rebuttal](http://paulgraham.com/ff.html).  I was both struck and disappointed by his opening argument: 
