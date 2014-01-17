@@ -12,11 +12,11 @@ What I find disappointing about this argument is the degree to which he is attem
 
 The “I’m not biased because…” argument is absurd. Graham’s argument fails because bias is part of human nature. He is a human and, therefore, he is biased. The same can be said for you. And for me. I walked away from his essay disappointed because his attitude struck me as self-important, as though he is above the inherent flaws of us regular humans.
 
-I’m not claiming that Graham is sexist (I'm sure he's a great guy), but he is most certainly not without bias. And neither is YC. I would have been much more impressed had he recognized this. *Yes, biases still exist in industry and will always exist as long as humans are involved, but me and YC are doing everything we can to decrease the prevalence and influence of those biases.*
+I’m not claiming that Graham is sexist (I'm sure he's a great guy), but he is most certainly not without bias. And neither is YC. I would have been much more impressed had he recognized this. *Yes, biases still exist in industry and will always exist as long as humans are involved, but we at YC are doing everything we can to decrease the prevalence and influence of those biases.*
 
 >“Are there other things you could do to get girls interested in programming? Almost certainly. Are there other things you'd have to do? Quite possibly. But notice the language I'm using. In the course of writing this I've gone from certainty to uncertainty. That's because I've gone from talking about a topic I know more about than most people—what happens when women start startups—to a topic many people know more about than me.”
 
 I’m really glad Graham said this towards the end of his essay. While it doesn’t make up for his awful opening argument, I was glad to hear him admit that he’s human. But his all-knowing attitude at the beginning of the essay really put a bad taste in my mouth. Yes, he probably knows more about startups than most people. He probably even knows a lot about women starting startups. But to claim that he’s above bias is honestly a little insulting. 
 
-Humans are not perfect, but we *can* remain conscious our biases and work to eliminate their influence over our words and actions. As a very prominent figure in the venture and startup industries, I had hoped Graham would take the more humanizing approach. 
+Humans are not perfect, but we *can* remain conscious of our biases and work to eliminate their influence over our words and actions. As a very prominent figure in the venture and startup industries, I had hoped Graham would take the more humanizing approach. 
 
