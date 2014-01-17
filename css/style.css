@@ -113,6 +113,11 @@ em {
 	font-style: italic;
 }
 
+blockquote {
+	position: relative;
+	padding-left: 2ch;
+}
+
 .light {
 	font-family: 'Ostrich-Light';
 	color: white;
