@@ -118,6 +118,16 @@ blockquote {
 	padding-left: 2ch;
 }
 
+ul {
+	padding-left: 20px;
+	list-style-position: outside;
+	list-style-type: disc;
+}
+
+li {
+	line-height: 1.5em;
+}
+
 .light {
 	font-family: 'Ostrich-Light';
 	color: white;
