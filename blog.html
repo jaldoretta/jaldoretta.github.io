@@ -47,7 +47,11 @@ title: blog
 				<h1 class="body-title">All Blog Posts</h1>
 				<div class="body-wrapper">
 					{% for post in site.posts %}
-					<p class="blog-list"><a class="body-text-link" href="{{post.url}}">{{ post.title }}</a>, posted on {{ post.date | date: '%B %-d, %Y' }}</p>
+						{% if post.external_url %}
+						<p class="blog-list"><a  class ="body-text-link" href="{{ post.external_url }}" onclick="_gaq.push(['_trackpageview', '{{ post.url }}']);" >{{ post.title }}</a>, posted at {{ post.external_site }} on {{ post.date | date: '%B %-d, %Y' }}</p>
+						{% else %}
+						<p class="blog-list"><a class="body-text-link" href="{{post.url}}">{{ post.title }}</a>, posted on {{ post.date | date: '%B %-d, %Y' }}</p>
+						{% endif %}
 					{% endfor %}
 				</div><!--.body-wrapper-->
 			</div><!--#left-column-->
