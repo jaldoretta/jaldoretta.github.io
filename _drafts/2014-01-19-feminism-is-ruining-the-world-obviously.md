@@ -4,8 +4,9 @@ title:  "Feminism is Ruining the World...Obviously"
 date:   2014-01-19
 ---
 
-
+<div class="iframe-wrapper">
 <iframe width="560" height="315" src="//www.youtube.com/embed/292rVp8tlic" frameborder="0" allowfullscreen="1"> </iframe>
+</div>
 
 ###Noteable Quotes:
 
