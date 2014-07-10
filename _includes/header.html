@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+	    <title>{{page.title}}</title>
+	    <meta property="og:site_name" content="Jennifer Aldoretta"/>
+	    <meta property="og:title" content="Howdy!"/>
+	    <meta property="og:image" content="/img/Jennifer-Aldoretta.jpg"/>
+	    <meta property="og:image:type" content="image/jpeg">
+	    <meta property="og:description" content="A blog about reproductive health, fertility, &amp; women's issues." />
+	    <meta name="description" content="A blog about reproductive health, fertility, &amp; women's issues.">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	    <link rel='stylesheet' type='text/css' href='/css/reset.css'/>
+	    <link rel='stylesheet' type='text/css' href='/css/style.css'/>
+	    <link rel="shortcut icon" href="/img/favicon.png" type="image/png">
+			<link rel="shortcut icon" type="image/png" href="/favicon.png" />
+
+	    <!--Google Analytics-->
+	    <script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-47020559-1', 'jenniferaldoretta.com');
+		  ga('send', 'pageview');
+			</script>
+
+	</head>
+	<body>
+		<div class="header-container">
+			<div class="main-header-text">
+				<h1><span class="light">JENNIFER</span><span class="double-line">ALDORETTA</span></h1>
+				<h2><span class="light">A blog about reproductive health, fertility, &amp; women's issues.</span></h2>
+			</div><!--.main-header-text-->
+			<nav>
+				<ul>
+	        {% if page.url == "/" %}
+	        <li class="nav"><a class="nav-text-link active" href="/">home</a></li>
+	        {% else %}
+	        <li class="nav"><a class="nav-text-link" href="/">home</a></li>
+	        {% endif %}
+	        {% if page.url contains "/blog" %}
+	        <li class="nav"><a class="nav-text-link active" href="/blog">blog</a></li>
+	        {% else %}
+	        <li class="nav"><a class="nav-text-link" href="/blog">blog</a></li>
+	        {% endif %}
+	        {% if page.url contains "/books" %}
+	        <li class="nav"><a class="nav-text-link active" href="/books">books</a></li>
+	        {% else %}
+	        <li class="nav"><a class="nav-text-link" href="/books">books</a></li>
+	        {% endif %}
+	    	</ul>
+      </nav>
+		</div><!--.header-container-->
+		</div>

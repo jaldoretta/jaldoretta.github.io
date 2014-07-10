@@ -1,46 +1,9 @@
 ---
-layout: none
-title: blog
+title: Blog - Jennifer Aldoretta
 ---
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-	    <title>Blog</title>
-	    <meta property="og:site_name" content="Jennifer Aldoretta"/>
-	    <meta property="og:title" content="Blog Posts"/>
-	    <meta property="og:image" content="http://www.jenniferaldoretta.com/img/JA.jpg"/>
-	    <meta property="og:description" content="I write about startups, feminism, women's health, fertility awareness, and other topics." />
-	    <meta name="description" content="I write about startups, feminism, women's health, fertility awareness, and other topics.">
-	    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-	    <link rel='stylesheet' type='text/css' href='/css/reset.css'/>
-	    <link rel='stylesheet' type='text/css' href='/css/style.css'/>
-	    <link rel="shortcut icon" href="/img/favicon.png" type="image/png">
-		<link rel="shortcut icon" type="image/png" href="http://www.jenniferaldoretta.com/favicon.png" />
-	    <!--Google Analytics-->
-	    <script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-		  ga('create', 'UA-47020559-1', 'jenniferaldoretta.com');
-		  ga('send', 'pageview');
+{% include header.html %}
 
-		</script>
-	</head>
-	<body>
-		<div class="header-container">
-			<div class="main-header-text">
-				<h1><span class="light">JENNIFER</span><span class="double-line">ALDORETTA</span></h1>
-				<h2><span class="light">I blog about</span> reproductive health<span class="light">,</span> feminism<span class="light">,</span> fertility awareness<span class="light">, and other issues affecting women.</span></h2>
-			</div><!--.main-header-text-->
-			<nav>
-				<ul>
-					<li class="nav"><a class="nav-text-link" href="/" title="home">home</a></li>
-            		<li class="nav"><a class="nav-text-link active" id="blog-nav" href="/blog" title="blog">blog</a></li>
-            		<li class="nav"><a class="nav-text-link" id="books-nav" href="/books" title="books">books</a></li>
-          		</nav>
-          	</div>
 		</div><!--.header-container-->
 		<div class="body-container">
 			<div class="left-column">
@@ -55,27 +18,9 @@ title: blog
 					{% endfor %}
 				</div><!--.body-wrapper-->
 			</div><!--#left-column-->
-			<div class="right-column">
-				<div class="right-column-wrapper">
-					<div class="img-resize">
-						<img class="JA-img" src="/img/JA.jpg" atl="img-resize" />
-					</div>
-					<p class="right-column-paragraph">Howdy. Thanks for stopping by!</p>
-					<div>
-						<ul class="social-ul">
-							<li class="social">
-								<a class="social-buttons" href="http://www.twitter.com/jaldoretta"><img src="/img/twitter_follow.png" alt="Twitter"/></a>
-							</li>
-							<li class="social">
-								<a class="social-buttons" href="http://www.facebook.com/jennifer.aldoretta"><img src="/img/facebook_follow.png" alt="Facebook"/></a>
-							</li>
-							<li class="social">
-								<a class="social-buttons" href="http://www.linked.com/in/jaldoretta/"><img src="/img/linkedin_follow.png" alt="LinkedIn"/></a>
-							</li>
-						</ul>
-					</div><!--.social-->
-				</div><!--.right-column-wrapper-->
-			</div><!--#right-column-->
+
+{% include sidebar.html %}
+
 		</div><!--.body-container-->
 		<div class="footer-container">
 			<p class="footer-font">&copy 2014 Jennifer Aldoretta. All rights reserved.</p>
