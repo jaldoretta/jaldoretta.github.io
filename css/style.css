@@ -87,7 +87,7 @@ blockquote {
 }
 
 ul {
-	padding-left: 20px;
+/*	padding-left: 20px;*/
 	list-style-position: outside;
 	list-style-type: disc;
 }
@@ -217,7 +217,7 @@ p.blog-list, p.blog-date {
 
 li.social {
 	display: inline-block;
-	padding-right: 5%;
+	padding-right: 8px;
 }
 
 	li.social:last-child {
