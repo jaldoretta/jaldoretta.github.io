@@ -7,7 +7,7 @@ title: Blog - Jennifer Aldoretta
 		</div><!--.header-container-->
 		<div class="body-container">
 			<div class="left-column">
-				<h1 class="body-title">All Blog Posts</h1>
+				<h2 class="body-title">All Blog Posts</h2>
 				<div class="body-wrapper">
 					{% for post in site.posts %}
 						{% if post.external_url %}
@@ -21,9 +21,4 @@ title: Blog - Jennifer Aldoretta
 
 {% include sidebar.html %}
 
-		</div><!--.body-container-->
-		<div class="footer-container">
-			<p class="footer-font">&copy 2014 Jennifer Aldoretta. All rights reserved.</p>
-		</div><!--.footer-container-->
-	</body>
-	</html>
+{% include footer.html %}
