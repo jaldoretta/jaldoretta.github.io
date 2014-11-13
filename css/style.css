@@ -45,12 +45,12 @@ h1 {
 	font-size: 130px;
 	text-align: center;
 	color: #444;
-	padding-bottom: 2%;
+/*	padding-bottom: 2%;*/
 }
 
 h2 {
-	font-family: 'Ostrich-Med';
-	font-size: 34px;
+	font-family: 'Helvetica Neue';
+	font-size: 22px;
 	color: white;
 	text-align: center;
 	padding-left: 2%;
@@ -105,6 +105,13 @@ li {
 	color: white;
 }
 
+.thin {
+	font-family: 'Helvetica Neue';
+	font-weight: 100;
+	letter-spacing: .1ch;
+	color: white;
+}
+
 .double-line {
 	font-family: 'Ostrich-Bold';
 	font-size: 115px;
@@ -117,7 +124,7 @@ li {
 }
 
 .main-header-text {
-	padding-bottom: 3%;
+	padding-bottom: 3.5%;
 	padding-top: 3%;
 	text-align: center;
 }
@@ -132,7 +139,7 @@ nav {
 
 li.nav {
 	display: inline-block;
-		margin-right: 3px;
+		margin-right: 10px;
 }
 
 	li.nav:last-child {
@@ -140,8 +147,10 @@ li.nav {
 	}
 
 .nav-text-link {
-	font-family: 'Ostrich-Med';
-	font-size: 36px;
+	font-family: 'helvetica neue';
+	font-weight: 200;
+	letter-spacing: 0.1ch;
+	font-size: 20px;
 	border: none;
 }
 
@@ -199,9 +208,11 @@ a.active {
 }
 
 .body-title {
-	font-family: 'Ostrich-Med';
-	font-size: 46px;
+	color: #555;
+	font-size: 40px;
 	text-align: left;
+	padding: 0;
+	margin-bottom: 10px;
 }
 
 p.blog-list, p.blog-date {
@@ -265,6 +276,7 @@ li.social {
 }
 
 img.JA-img {
+	max-width: 150px;
 	border-radius: 50%;
 }
 
@@ -300,11 +312,11 @@ p.footer-font {
 	}
 
 	h2 {
-		font-size: 28px;
+		font-size: 22px;
 	}
 
 	.nav-text-link {
-		font-size: 26px;
+		font-size: 20px;
 	}
 
 	.body-container {
@@ -325,7 +337,7 @@ p.footer-font {
 	}
 
 	h2 {
-		font-size: 24px;
+		font-size: 20px;
 	}
 
 	.double-line {
