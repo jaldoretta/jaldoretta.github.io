@@ -31,8 +31,8 @@
 	<body>
 		<div class="header-container">
 			<div class="main-header-text">
-				<h1><span class="light">JENNIFER</span><span class="double-line">ALDORETTA</span></h1>
-				<h2><span class="thin">Working to change the face of women&rsquo;s reproductive health.</span></h2>
+				<img class="header-image" src="/img/JA-website-header.png" />
+				<h2><span class="thin">Entrepreneur. Designer. Developer. Writer. Badass.</span></h2>
 			</div><!--.main-header-text-->
 			<nav>
 				<ul>
@@ -45,6 +45,11 @@
 	        <li class="nav"><a class="nav-text-link active" href="/blog">BLOG</a></li>
 	        {% else %}
 	        <li class="nav"><a class="nav-text-link" href="/blog">BLOG</a></li>
+	        {% endif %}
+	        {% if page.url contains "/portfolio" %}
+	        <li class="nav"><a class="nav-text-link active" href="/portfolio">PORTFOLIO</a></li>
+	        {% else %}
+	        <li class="nav"><a class="nav-text-link" href="/portfolio">PORTFOLIO</a></li>
 	        {% endif %}
 	        {% if page.url contains "/books" %}
 	        <li class="nav"><a class="nav-text-link active" href="/books">BOOKS</a></li>

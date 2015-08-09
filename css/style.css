@@ -1,35 +1,35 @@
-@font-face {
+/*@font-face {
     font-family: 'Ostrich-Light'!important;
-    src: url('../fonts/ostrich-light-webfont.eot')!important;
-    src: url('../fonts/ostrich-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/ostrich-light-webfont.woff') format('woff'),
-         url('../fonts/ostrich-light-webfont.ttf') format('truetype'),
-         url('../fonts/ostrich-light-webfont.svg#ostrich_sanscondensed_light') format('svg')!important;
+    src: url('../fonts/ostrich-light.eot')!important;
+    src:	url('../fonts/ostrich-light.svg#ostrich-light') format('svg'),
+    			url('../fonts/ostrich-light.eot?#iefix') format('embedded-opentype'),
+        	url('../fonts/ostrich-light.woff') format('woff'),
+        	url('../fonts/ostrich-light.ttf') format('truetype');
     font-weight: normal!important;
     font-style: normal!important;
 }
 
 @font-face {
     font-family: 'Ostrich-Med'!important;
-    src: url('../fonts/ostrich-rounded-webfont.eot')!important;
-    src: url('../fonts/ostrich-rounded-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/ostrich-rounded-webfont.woff') format('woff'),
-         url('../fonts/ostrich-rounded-webfont.ttf') format('truetype'),
-         url('../fonts/ostrich-rounded-webfont.svg#ostrich_sans_roundedmedium') format('svg')!important;
+    src: url('../fonts/ostrich-rounded.eot')!important;
+    src:	url('../fonts/ostrich-rounded.svg#ostrich-rounded') format('svg'),
+    			url('../fonts/ostrich-rounded.eot?#iefix') format('embedded-opentype'),
+        	url('../fonts/ostrich-rounded.woff') format('woff'),
+        	url('../fonts/ostrich-rounded.ttf') format('truetype');
     font-weight: normal!important;
     font-style: normal!important;
 }
 
 @font-face {
     font-family: 'Ostrich-Bold'!important;
-    src: url('../fonts/ostrich-bold-webfont.eot')!important;
-    src: url('../fonts/ostrich-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/ostrich-bold-webfont.woff') format('woff'),
-         url('../fonts/ostrich-bold-webfont.ttf') format('truetype'),
-         url('../fonts/ostrich-bold-webfont.svg#ostrich_sansbold') format('svg')!important;
+    src:	url('../fonts/ostrich-bold.eot')!important;
+    src:	url('../fonts/ostrich-bold.svg#ostrich-bold') format('svg'),
+    			url('../fonts/ostrich-bold.eot?#iefix') format('embedded-opentype'),
+        	url('../fonts/ostrich-bold.woff') format('woff'),
+        	url('../fonts/ostrich-bold.ttf') format('truetype');
     font-weight: normal!important;
     font-style: normal!important;
-}
+}*/
 
 body, h3, p {
 	font-family: 'helvetica neue', helvetica, arial;
@@ -38,6 +38,11 @@ body, h3, p {
 body {
 	font-size: 18px;
 	color: #555;
+}
+
+.header-image {
+	margin-left: -50px;
+	width: 800px;
 }
 
 h1 {
@@ -101,7 +106,7 @@ li {
 }
 
 .light {
-	font-family: 'Ostrich-Light';
+	font-family: 'Ostrich-Light', 'Helvetica Neue';
 	color: white;
 }
 
@@ -113,7 +118,7 @@ li {
 }
 
 .double-line {
-	font-family: 'Ostrich-Bold';
+	font-family: 'Ostrich-Bold', 'Helvetica Neue';
 	font-size: 115px;
 	color: white;
 }
@@ -309,6 +314,33 @@ p.footer-font {
 	margin: 0;
 }
 
+/*** PORTFOLIO ***/
+
+.portfolio-img-list a {
+	border-bottom: none;
+}
+
+.portfolio-img {
+	width: 95%;
+	border: 1px solid #9c9c9c;
+	margin-bottom: 25px;
+}
+
+.image-off, .work-display:hover .image-on {
+	display: none;
+}
+
+.image-on, .work-display:hover .image-off {
+	display: block;
+}
+
+@media screen and (max-width: 900px) {
+	.header-image {
+		margin-left: -25px;
+		width: 600px;
+	}
+}
+
 @media screen and (max-width: 800px) {
 
 	h1 {
@@ -424,6 +456,14 @@ p.footer-font {
 	}
 }
 
+@media screen and (max-width: 650px) {
+	.header-image {
+		margin-left: auto;
+		margin-right: auto;
+		width: 375px;
+	}
+}
+
 @media screen and (max-width: 450px) {
 
 	.light {
@@ -434,12 +474,17 @@ p.footer-font {
 		font-size: 50px;
 	}
 
+	.nav-text-link {
+		font-size: 18px;
+	}
+
 	.double-line {
 		font-size: 44px;
 	}
 
 	h2 {
-		font-size: 20px;
+		font-size: 18px;
+		line-height: 1.4em;
 	}
 
 	.body-title {
