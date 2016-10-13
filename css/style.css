@@ -76,6 +76,8 @@ p {
 	color: #555;
 	line-height: 1.4em;
 	margin-bottom: 15px;
+	font-weight: 200;
+  letter-spacing: 0.04ch;
 }
 
 strong {
@@ -155,7 +157,7 @@ li.nav {
 	font-family: 'helvetica neue';
 	font-weight: 200;
 	letter-spacing: 0.1ch;
-	font-size: 20px;
+	font-size: 16px;
 	border: none;
 }
 
@@ -168,13 +170,12 @@ li.nav {
 }
 
 a {
-	color: #777;
+	color: #999;
 	text-decoration: none;
-	border-bottom: 1px solid #777;
 }
 	
 	a:hover {
-		color: #555;
+		color: #333;
 		border-bottom: none;
 	}
 
@@ -229,7 +230,7 @@ a.active {
 }
 
 p.blog-list, p.blog-date {
-	color: #999;
+	color: #555;
 	margin-bottom: 10px;
 }
 
