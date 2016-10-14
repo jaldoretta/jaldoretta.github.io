@@ -336,13 +336,13 @@ p.footer-font {
 	margin-bottom: 25px;
 }
 
-.image-off, .work-display:hover .image-on {
+/*.image-off, .work-display:hover .image-on {
 	display: none;
 }
 
 .image-on, .work-display:hover .image-off {
 	display: block;
-}
+}*/
 
 @media screen and (max-width: 900px) {
 	.header-image {
