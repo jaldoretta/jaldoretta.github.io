@@ -218,7 +218,7 @@ a.active {
 	font-size: 40px;
 	text-align: left;
 	padding: 0;
-	margin-bottom: 15px;
+	margin-bottom: 30px;
 }
 
 .blog-title {
@@ -336,6 +336,12 @@ p.footer-font {
 	margin-bottom: 25px;
 }
 
+.logo-img {
+	width: 40%;
+	display: block;
+	margin-bottom: 40px;
+}
+
 /*.image-off, .work-display:hover .image-on {
 	display: none;
 }
@@ -412,6 +418,7 @@ p.footer-font {
 
 	.body-title {
 		text-align: center;
+		margin-bottom: 20px;
 	}
 
 	.blog-title {
@@ -505,6 +512,7 @@ p.footer-font {
 
 	.body-title {
 		font-size: 30px;
+		margin-bottom: 15px;
 	}
 
 	.blog-title {

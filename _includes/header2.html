@@ -41,15 +41,15 @@
 	        {% else %}
 	        <li class="nav"><a class="nav-text-link" href="/">HOME</a></li>
 	        {% endif %}
-	        {% if page.url contains "/blog" %}
-	        <li class="nav"><a class="nav-text-link active" href="/blog">BLOG</a></li>
-	        {% else %}
-	        <li class="nav"><a class="nav-text-link" href="/blog">BLOG</a></li>
-	        {% endif %}
 	        {% if page.url contains "/portfolio" %}
 	        <li class="nav"><a class="nav-text-link active" href="/portfolio">PORTFOLIO</a></li>
 	        {% else %}
 	        <li class="nav"><a class="nav-text-link" href="/portfolio">PORTFOLIO</a></li>
+	        {% endif %}
+	        {% if page.url contains "/blog" %}
+	        <li class="nav"><a class="nav-text-link active" href="/blog">BLOG</a></li>
+	        {% else %}
+	        <li class="nav"><a class="nav-text-link" href="/blog">BLOG</a></li>
 	        {% endif %}
 	        {% if page.url contains "/books" %}
 	        <li class="nav"><a class="nav-text-link active" href="/books">BOOKS</a></li>
