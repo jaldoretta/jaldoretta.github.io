@@ -4,5 +4,4 @@ description: "I write about startups, feminism, women's health, fertility awaren
 url: "http://localhost:4000"
 
 encoding: "utf-8"
-markdown: rdiscount
 permalink: pretty
